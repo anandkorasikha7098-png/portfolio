@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Korasikha Anand Kumar | Portfolio</title>
+  <link rel="stylesheet" href="/hello.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header & Navbar -->
+  <header id="home">
+    <nav class="navbar">
+      <div class="logo">Anand Kumar</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <h1>I'm <span class="highlight">Anand Kumar</span></h1>
+      <p>Full Stack Developer | Problem Solver | Tech Enthusiast</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-img" data-animated>
+          <img src="https://via.placeholder.com/300" alt="Anand Kumar">
+        </div>
+        <div class="about-text" data-animated>
+          <p>Hello! I'm <strong>Korasikha Anand Kumar</strong>, a passionate Full Stack Developer with expertise in web technologies like HTML, CSS, JavaScript, React, Node.js, and MongoDB.</p>
+          <p>I graduated from [University Name] with a degree in Computer Science and have been building scalable web applications ever since. I love solving real-world problems through clean code and intuitive design.</p>
+          <p>When I'm not coding, you'll find me exploring new tech trends, contributing to open-source, or learning something new.</p>
+          <div class="about-links">
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-file-pdf"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section light-bg">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-bar" data-skill="90%">
+          <span class="skill-name">HTML/CSS</span>
+          <div class="progress">
+            <div class="progress-bar html"></div>
+          </div>
+        </div>
+        <div class="skill-bar" data-skill="85%">
+          <span class="skill-name">JavaScript</span>
+          <div class="progress">
+            <div class="progress-bar js"></div>
+          </div>
+        </div>
+        <div class="skill-bar" data-skill="80%">
+          <span class="skill-name">React</span>
+          <div class="progress">
+            <div class="progress-bar react"></div>
+          </div>
+        </div>
+        <div class="skill-bar" data-skill="75%">
+          <span class="skill-name">Node.js</span>
+          <div class="progress">
+            <div class="progress-bar node"></div>
+          </div>
+        </div>
+        <div class="skill-bar" data-skill="70%">
+          <span class="skill-name">MongoDB</span>
+          <div class="progress">
+            <div class="progress-bar mongo"></div>
+          </div>
+        </div>
+        <div class="skill-bar" data-skill="80%">
+          <span class="skill-name">Python</span>
+          <div class="progress">
+            <div class="progress-bar python"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card" data-animated>
+          <img src="https://via.placeholder.com/350x200?text=E-Commerce+Site" alt="Project 1">
+          <h3>E-Commerce Web App</h3>
+          <p>A full-stack online shopping platform built with MERN stack.</p>
+          <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+        </div>
+        <div class="project-card" data-animated>
+          <img src="https://via.placeholder.com/350x200?text=Task+Manager" alt="Project 2">
+          <h3>Task Management Tool</h3>
+          <p>React-based app with drag-and-drop interface and local storage.</p>
+          <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> View Project</a>
+        </div>
+        <div class="project-card" data-animated>
+          <img src="https://via.placeholder.com/350x200?text=Weather+App" alt="Project 3">
+          <h3>Weather Dashboard</h3>
+          <p>Real-time weather app using OpenWeather API and geolocation.</p>
+          <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Try It</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section light-bg">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <form class="contact-form" id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div id="formStatus"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Korasikha Anand Kumar. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
